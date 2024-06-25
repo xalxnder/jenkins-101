@@ -7,5 +7,12 @@ pipeline {
       }
     }
 
+    stage('List ') {
+      steps {
+        sh '''ls -al
+'''
+      }
+    }
+
   }
 }
